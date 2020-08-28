@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="47dp"
+        android:text="Welcome to KAAS Ltd"
+        android:textColor="@color/text"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="173dp"
+        android:text="Name: "
+        android:textColor="@color/red"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/t1"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/t1"
+        android:hint="Enter your name"
+        android:text="Muthuammal"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:text="Id: "
+
+        android:textColor="@color/red"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t2"
+        android:layout_marginStart="-1dp"
+        android:layout_toEndOf="@+id/t2"
+        android:hint="Admin id/public id/company id"
+        android:textColor="@color/red"
+        android:text="WK001"
+
+        />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="321dp"
+        android:background="@color/orange"
+        android:text="Verify"
+        android:textColor="@color/red"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

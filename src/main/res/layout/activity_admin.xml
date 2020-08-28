@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin">
+
+    <ImageButton
+        android:id="@+id/viewworkers"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageButton
+        android:id="@+id/ViewCompanies"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/viewworkers"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-200dp" />
+
+    <ImageButton
+        android:id="@+id/viewpublic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/ViewCompanies"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ViewCompanies"
+        android:layout_alignParentStart="true"
+        android:text="Company database"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ViewCompanies"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="-1dp"
+        android:text="Workers database"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewpublic"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="2dp"
+        android:text="public database"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
